@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2894183E-6F28-468F-898E-5CCCF7B1771F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB6E39F3-B892-482B-83A4-EE4B97498623}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "RobPearson.SimpleAspNetCoreWebApp", "src\RobPearson.SimpleAspNetCoreWebApp\RobPearson.SimpleAspNetCoreWebApp.xproj", "{1B2E5C18-1826-44E2-AFDB-029C932829FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B2E5C18-1826-44E2-AFDB-029C932829FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2E5C18-1826-44E2-AFDB-029C932829FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2E5C18-1826-44E2-AFDB-029C932829FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2E5C18-1826-44E2-AFDB-029C932829FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B2E5C18-1826-44E2-AFDB-029C932829FE} = {2894183E-6F28-468F-898E-5CCCF7B1771F}
+	EndGlobalSection
+EndGlobal
